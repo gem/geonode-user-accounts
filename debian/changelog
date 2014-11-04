@@ -1,0 +1,11 @@
+geonode-user-accounts (1.0.5-2~gem03) precise; urgency=high
+
+  * add control items to replace python-django-user-accounts package
+
+ -- Matteo Nastasi (GEM Foundation) <nastasi@openquake.org>  Tue, 04 Nov 2014 14:28:37 +0100
+
+geonode-user-accounts (1.0.4-1) precise; urgency=high
+
+  * source package automatically created by stdeb 0.8.2
+
+ -- Brian Rosner <brosner@gmail.com>  Fri, 24 Oct 2014 10:57:02 -0500
