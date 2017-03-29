@@ -1,0 +1,39 @@
+Source: geonode-user-accounts
+Maintainer: Brian Rosner <brosner@gmail.com>
+Section: python
+Priority: optional
+Build-Depends: python-setuptools (>= 0.6b3), python-all (>= 2.6.6-3), debhelper (>= 7)
+Standards-Version: 3.9.1
+
+
+
+Package: python-geonode-user-accounts
+Architecture: all
+Provides: python-django-user-accounts
+Conflicts: python-django-user-accounts
+Replaces: python-django-user-accounts
+Depends: ${misc:Depends}, ${python:Depends}
+Description: a Django user account app
+ ==============================================
+ django-user-accounts: user accounts for Django
+ ==============================================
+ .
+ Provides user accounts to a GeoNode project.
+ .
+ Forked from django-user-account for implementing the user invitation feature.
+ When in django-user-account it will be re-enabled that feature (once existing in 
+ Pinax) we will move back to it.
+ .
+ Requirements
+ ============
+ .
+ * Django 1.4+
+ * Python 2.6+ or Python 3.3+
+ * django-appconf (included in ``install_requires``)
+ * pytz (included in ``install_requires``)
+ .
+ Documentation
+ =============
+
+
+
